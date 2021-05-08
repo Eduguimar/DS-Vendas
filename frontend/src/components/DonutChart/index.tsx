@@ -15,14 +15,13 @@ const DonutChart = () => {
 
     useEffect(() => {
         axios.get(`${BASE_URL}/sales/amount-by-seller`)
-        .then(response => {
-            const data = response.data as SaleSum[];
-            const myLabels = data.map(x => x.sellerName);
-            const mySeries = data.map(x => x.sum);
+            .then(response => {
+                const data = response.data as SaleSum[];
+                const myLabels = data.map(x => x.sellerName);
+                const mySeries = data.map(x => x.sum);
 
-            setChartData({ labels: myLabels, series: mySeries });
-            console.log(chartData)
-        });
+                setChartData({ labels: myLabels, series: mySeries });
+            });
     }, []);
 
     /*
@@ -31,7 +30,7 @@ const DonutChart = () => {
         labels: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
     }
     */
-    
+
     const options = {
         legend: {
             show: true

@@ -9,7 +9,7 @@ Projeto desenvolvido durante o evento Semana Spring React oferecido pela [`DevSu
 
 Dashboard dinâmico com a análise do total de vendas exibido em diferentes perspectivas, através de gráficos e uma tabela paginada com os valores. 
 
-Projeto contruído com a base em Java, utilizando o framework Spring, e com o front end em ReactJS. Os dados estão armazenados no banco de dados Postgres, hospedado no Heroku.
+Projeto construído com a base em Java, utilizando o framework Spring, e com o front end em ReactJS. Os dados estão armazenados no banco de dados Postgres, hospedado no Heroku.
 
 ## Layout
 
